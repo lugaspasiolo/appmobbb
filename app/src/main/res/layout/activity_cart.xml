@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cart"
+    tools:context=".Activity.activity.CartActivity">
+
+    <TextView
+        android:id="@+id/tvc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/cart"
+        android:textColor="#502623"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="515dp"
+        android:text="@string/your_location"
+        android:textColor="#502623"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etc1"
+        android:layout_width="367dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="555dp"
+        android:background="@color/white"
+        android:hint="  Type Your Location Here."
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/tvc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="622dp"
+        android:text="Add Note :"
+        android:textColor="#502623"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etc2"
+        android:layout_width="367dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="670dp"
+        android:background="@color/white"
+        android:hint="  Type Here."
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/tvc4"
+        android:layout_width="373dp"
+        android:layout_height="232dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="843dp"
+        android:background="@drawable/rounded2"
+        android:onClick="NEXT"
+        android:text="NEXT"
+        android:textColor="#AA986A"
+        android:textSize="20dp"
+         />
+
+</RelativeLayout>

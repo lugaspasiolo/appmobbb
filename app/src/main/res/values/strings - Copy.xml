@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Three Coffee</string>
+    <string name="menu">MENU</string>
+    <string name="v60_coffee">V60 COffee</string>
+    <string name="macchiato">Macchiato</string>
+    <string name="mocha">Mocha</string>
+    <string name="flate_white">Flate White</string>
+    <string name="next">NEXT</string>
+    <string name="famele">FAMELE</string>
+    <string name="male">MALE</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="username">Username</string>
+    <string name="login">LOGIN</string>
+    <string name="cart">CART</string>
+    <string name="your_location">Your Location :</string>
+    <string name="password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="create_acc">Create Acc</string>
+    <string name="create_your_account">Create Your Account</string>
+</resources>

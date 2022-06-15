@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.activity.RegisterActivity"
+    android:background="@drawable/number">
+
+    <TextView
+        android:id="@+id/Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/create_your_account"
+        android:textColor="#AA986A"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="@string/username"
+        android:textColorHint="#AA986A"
+        android:layout_marginTop="480dp"
+        android:inputType="text"
+        android:textColor="#AA986A"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/pn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginRight="30dp"
+        android:hint="@string/phone_number"
+        android:inputType="number"
+        android:textColor="#AA986A"
+        android:textColorHint="#AA986A"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#AA986A"
+        android:textColorHint="#AA986A"
+        android:textSize="27sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/pass"
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/gender">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/male"
+            android:textStyle="bold"
+            android:textColor="#502623"/>
+
+        <RadioButton
+            android:id="@+id/famele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/famele"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#502623"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="780dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="CREATE"
+        android:textColor="#AA986A"
+        android:text="@string/create_acc"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+
+</RelativeLayout>

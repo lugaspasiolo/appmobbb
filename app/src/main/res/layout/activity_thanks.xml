@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thanks"
+    tools:context=".Activity.activity.ThanksActivity">
+
+    <TextView
+        android:id="@+id/tvp1"
+        android:layout_width="387dp"
+        android:layout_height="91dp"
+        android:text="THANK YOU , PESANAN ANDA SEDANG DI PROSES"
+        android:textColor="#502623"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
